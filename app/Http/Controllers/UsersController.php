@@ -122,4 +122,12 @@ class UsersController extends Controller
         $title = $user->name . '的粉丝';
         return view('users.show_follow', compact('users', 'title'));
     }
+    // public function feed()
+    // {
+    //     $user_ids = $this->followings->pluck('id')->toArray();
+    //     array_push($user_ids, $this->id);
+    //     return Status::whereIn('user_id', $user_ids)
+    //                           ->with('user')
+    //                           ->orderBy('created_at', 'desc');
+    // }
 }
