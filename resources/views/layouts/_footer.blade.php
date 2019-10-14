@@ -1,8 +1,8 @@
 <footer class="footer">
-  <img class="brand-icon" src="https://cdn.learnku.com/uploads/sites/KDiyAbV0hj1ytHpRTOlVpucbLebonxeX.png">
-  <a href="https://learnku.com/laravel/courses" target=_blank>
-    刻意练习，每日精进
-  </a>
+  <img class="brand-icon" src="http://www.gravatar.com/avatar/279214836@qq.com?s=150">
+
+   每日精进 不断前行
+
 
   <div class="float-right">
     <a href="{{ route('about') }}" >关于</a>
